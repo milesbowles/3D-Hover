@@ -1,7 +1,7 @@
-var firstFrame = "http://imgur.com/UeMOrix.gif";
-var lastFrame = "http://imgur.com/vy7weQ1.gif";
-var forwardAnimation = "http://i.imgur.com/UB0g8dT.gif";
-var backwardAnimation = "http://i.imgur.com/aIxrX26.gif";
+var firstFrame = ".gif";
+var lastFrame = ".gif";
+var forwardAnimation = ".gif";
+var backwardAnimation = ".gif";
 
 var animationLength = 5040;
 var playing = false;
