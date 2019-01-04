@@ -8,6 +8,7 @@ var playing = false;
 var checkingIfPlaying = false;
 
 function playForward() {
+
   if ($("#animation").is(":hover")){
     playing = true;
     $("#animation").attr("src", forwardAnimation);
@@ -22,9 +23,10 @@ function playForward() {
 }
 
 function playBackward() {
+
   if ($("#animation").is(":hover")) {
     $("#animation").attr("src", lastFrame);
-  }
+  } 
   else {
     playing = true;
     $("#animation").attr("src", backwardAnimation);
@@ -36,6 +38,7 @@ function playBackward() {
 }
 
 $("#animation").mouseover(function (e) {
+
     if (!checkingIfPlaying) {
       checkingIfPlaying = window.setInterval(function () {
         if (!playing) {
